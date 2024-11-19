@@ -1,0 +1,18 @@
+llms:
+  openai:
+    chat_model: "gpt-4o"
+    embedding_model: "text-embedding-ada-002"
+
+embeddings:
+  vectordb_pat: "data/vectordb"
+
+similarity_search:
+  top_k: 5
+
+data:
+  path: "data"
+  movie: "data/Movie"
+  final_data: "data/Movie/final_data.jsonl"
+  conversations: "data/Movie/Conversation.txt"
+  user_map: "data/Movie/user_ids.json"
+  item_map: "data/Movie/item_map.json"  
