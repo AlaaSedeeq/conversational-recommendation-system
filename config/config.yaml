@@ -4,10 +4,11 @@ llms:
     embedding_model: "text-embedding-ada-002"
 
 embeddings:
-  vectordb_pat: "data/vectordb"
+  vectordb_path: "data/vectordb"
 
 similarity_search:
-  top_k: 5
+  top_k: 10
+  # cohere_reranker: "rerank-english-v3.0"
 
 data:
   path: "data"
@@ -16,3 +17,8 @@ data:
   conversations: "data/Movie/Conversation.txt"
   user_map: "data/Movie/user_ids.json"
   item_map: "data/Movie/item_map.json"  
+  session_db: "data/chat_sessions.db"
+
+api:
+  base_url: http://127.0.0.1:8050
+  port: 8050

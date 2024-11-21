@@ -1,4 +1,10 @@
+logs
+.streamlit
+.mypy_cache
 api_key.py
+temp.py
+.streamlit
+notes.txt
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
