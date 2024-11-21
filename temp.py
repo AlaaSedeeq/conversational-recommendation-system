@@ -1,7 +1,7 @@
-from src.agentCRS.builder import build_single_agent
-from src.multiAgentCRS.utils import save_graph_image
+# from src.agentCRS.builder import build_single_agent
+# from src.multiAgentCRS.utils import save_graph_image
 
-save_graph_image(build_single_agent().graph, "data/agent_graph.png")
+# save_graph_image(build_single_agent().graph, "data/agent_graph.png")
 
 # from src.multiAgentCRS.graph.builder import build_multi_agent_graph
 # from src.multiAgentCRS.utils.chat import start_chat
@@ -44,7 +44,7 @@ save_graph_image(build_single_agent().graph, "data/agent_graph.png")
 # if __name__ == "__main__":
 #     asyncio.run(chat_loop())
 
-
+['The Theory Of Everything 2015', 'El Mariachi / Desperado', 'Still Alice anglais', 'World War Z', '1408 Full Screen Edition', 'Captain Phillips Steelbook', 'Lone Survivor [DVD]', 'Wrecking Crew', 'Ant-Man']
 # # save_graph_image(graph)
 # # import uuid
 
@@ -61,9 +61,9 @@ save_graph_image(build_single_agent().graph, "data/agent_graph.png")
 
 # # start_chat(graph, config)
 
-# # from src.utils.fetch_data import get_user_data
+# from src.utils.fetch_data import get_user_data
 
-# # print(get_user_data("A30Q8X8B1S3GGT"))
+# print(get_user_data("A1EMDSTJDUE6B0"))
 
 # from src.common.config import load_config
 # from src.infrastructure.search_engine.faiss import FAISS_Search
