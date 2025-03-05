@@ -93,7 +93,7 @@ streamlit run run_streamlit_app.py
 - `POST /chat`: Submit a chat message
   ```json
   {
-    "message": "I'm looking for a sports car under $50,000",
+    "message": "Recommended me a thrillingmovie!",
     "user_id": "user123",
     "graph_type": "multi"
   }
