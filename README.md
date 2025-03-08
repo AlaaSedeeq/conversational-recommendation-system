@@ -2,10 +2,6 @@
 
 Agent-based conversational recommendation system that implements both Single-Agent and Multi-Agent approaches for movie recommendations. 
 
-**Notes:** 
-- If using VsCode, please use the command `ctrl + shift + v` to format the markdown.
-- I'm using OpenAI GPT-4o model for this project.
-
 ## Features
 
 - **Dual Architecture**: Switch seamlessly between Single-Agent and Multi-Agent approaches
