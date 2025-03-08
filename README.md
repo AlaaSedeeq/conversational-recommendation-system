@@ -1,4 +1,4 @@
-# Seez CRS (Conversational Recommendation System)
+# Conversational Recommendation System
 
 Agent-based conversational recommendation system that implements both Single-Agent and Multi-Agent approaches for movie recommendations. 
 
@@ -93,7 +93,7 @@ streamlit run run_streamlit_app.py
 - `POST /chat`: Submit a chat message
   ```json
   {
-    "message": "Recommended me a thrillingmovie!",
+    "message": "Recommended me a thrilling movie!",
     "user_id": "user123",
     "graph_type": "multi"
   }
