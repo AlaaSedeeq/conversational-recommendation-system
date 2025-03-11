@@ -17,7 +17,6 @@ Agent-based conversational recommendation system that implements both Single-Age
 The Multi-Agent system orchestrates specialized agents for different aspects of the recommendation process.
 - The performance of the multi-agent approach is better than the single-agent approach.
 - It gives recommendations for new/old users based on user id as we can not map username/userid.
-- We can do better with agentic approach, but due to time constraints, this is not bad!
 
 ![Multi-Agent Architecture](data/multi_agent_graph.png)
 
